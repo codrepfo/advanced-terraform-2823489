@@ -1,0 +1,9 @@
+------------------------------------------------------------------
+Precedence of Variables
+------------------------------------------------------------------
+1. Environement variables (With EXPORT)
+2. terraform.tfvars
+3. terraform.tfvars.json
+4. *.auto.tfvars
+5. -var or -var-file command-line options
+
