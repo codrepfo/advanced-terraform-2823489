@@ -3,5 +3,5 @@ terraform init \
     -backend-config="key=red30/ecommerceapp/app.state" \
     -backend-config="region=eu-central-1" \
     -backend-config="dynamodb_table=red30-tfstatelock" \
-    -backend-config="access_key=AKIAUTQVKPEJWYAVDM5T" \
-    -backend-config="secret_key=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"
+    -backend-config="access_key= \
+    -backend-config="secret_key="
