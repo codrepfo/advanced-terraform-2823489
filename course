@@ -7,3 +7,45 @@ Precedence of Variables
 4. *.auto.tfvars
 5. -var or -var-file command-line options
 
+------------------------------------------------------------------
+HCL
+------------------------------------------------------------------
+HCL supports 
+Expression: (5+1) or (5>1)
+Predefined function: split()
+
+------------------------------------------------------------------
+Terraform Function types
+------------------------------------------------------------------
+Numeric
+String
+Collection
+Encoding
+FileSystem
+Date and time
+Hash and Crypto
+Ip Network
+Type Conversion
+------------------------------------------------------------------
+Modules
+------------------------------------------------------------------
+Root Modules ----- Provider
+-Child Module
+-Child Module
+-Child Module
+
+The software delivery life cycle begins
+with developers committing code to a central repository
+where continuous integration practices trigger tests
+in a series of shared environments.
+The development environment is where new code
+is first integrated.
+The next environment may be called staging or QA,
+where more advanced testing is performed,
+such as user acceptance and systems integration testing.
+Finally, fully tested, feature complete code is pushed
+to a production environment where it's used by end users.
+
+
+
+
