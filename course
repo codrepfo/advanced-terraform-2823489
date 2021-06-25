@@ -46,6 +46,13 @@ such as user acceptance and systems integration testing.
 Finally, fully tested, feature complete code is pushed
 to a production environment where it's used by end users.
 
+------------------------------------------------------------------
+Automation CI/CD
+------------------------------------------------------------------
+
+
+Dev -> Source control Git -> CI/CD (Jenkins or GitLab) -> DEV, QA, PROD
+
 
 
 
